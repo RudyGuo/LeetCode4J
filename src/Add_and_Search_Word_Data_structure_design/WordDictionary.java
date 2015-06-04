@@ -1,4 +1,4 @@
-package Add_and_Search_Word_Data_structure_design2;
+package Add_and_Search_Word_Data_structure_design;
 
 import java.util.LinkedList;
 import java.util.Queue;
