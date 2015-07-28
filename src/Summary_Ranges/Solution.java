@@ -1,7 +1,9 @@
 package Summary_Ranges;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /*Given a sorted integer array without duplicates, return the summary of its ranges.
 
@@ -15,6 +17,7 @@ public class Solution {
     public List<String> summaryRanges(int[] nums) {
     	List<String> res = new ArrayList<>();
     	int i=0;
+
         while(i<nums.length){
         	int start = i;
         	String str = nums[i]+"";
